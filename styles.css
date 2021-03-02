@@ -1,0 +1,108 @@
+body {
+  background-image: url("http://3.bp.blogspot.com/-zUlEBWM8ZoA/TeTf1YxwJtI/AAAAAAAAA14/cJb0jIHus-M/s1600/sky+images+of+Pictures.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+.coloured-section {
+  height: 70px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+
+
+.brand {
+  font-size: 2rem;
+  opacity: 0.5;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.instructions_section {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-bottom: 140px;
+
+
+}
+
+.instructions-text {
+  font-size: 2rem;
+}
+
+
+/* .game-section {
+  background-image: url("https://clipart.info/images/ccovers/1520611249hd-Grass-PNG-Transparent-Image.png");
+  background-size: cover;
+  position: absolute;
+} */
+
+.container {
+  margin-left:0 !important;
+  margin-right: 0 !important;
+  margin-top: 50px;
+
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+
+
+.animals_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  position: absolute;
+  display: inline-block;
+
+}
+
+
+.hen {
+  display: inline-block;
+  margin-left: 460px;
+}
+
+.horse {
+  display: inline-block;
+  margin-left: 80px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.sheep {
+  display: inline-block;
+  margin-left: 750px;
+}
+
+.cow {
+  display: inline-block;
+  margin-left: 1000px;
+  width: 300px;
+}
+
+
+.grass {
+  background-image: url("https://cdn.picpng.com/grass/grass-transparent-24503.png");
+  background-size: cover;
+  height: 150px;
+  width: auto;
+  margin-top: 60px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

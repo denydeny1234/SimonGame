@@ -1,0 +1,68 @@
+body {
+
+}
+
+
+.bg_img {
+  background-image: url('horse_main_pg.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: blur(4px);
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.brand {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.5;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bg_text {
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  /* Center div in the center of the page */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+
+.btn_play {
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+  height: 200px;
+  width: 300px;
+}
+
+
+h1 {
+  font-size: 30px;
+}
+
+
+.btn_play:hover {
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+
+footer {
+  z-index: 3;
+}
